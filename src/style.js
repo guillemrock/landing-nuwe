@@ -18,12 +18,12 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     display: "block",
-    marginLeft: "25%",
-    width: "50%",
-    justifyContent: "center",
+    marginLeft: "20%",
+    width: "60%",
     color: "#fff",
+    justifyContent: "center",
     fontSize: theme.typography.h1,
-    fontWeight: "bold",
+    fontWeight: "medium",
     fontFamily: theme.typography.fontFamily,
     textTransform: "uppercase",
     textShadow: [
@@ -56,19 +56,17 @@ const useStyles = makeStyles((theme) => ({
     marginTop: 40,
     width: "18em",
     height: "5em",
-    backgroundColor: "#E9FFEB",
-    boxShadow: [
-      "0px 0px 18.523px rgba(1, 221, 115, 0.7)",
-      "0px 0px 71.7083px rgba(1, 221, 115, 0.5)",
-    ],
+    border: "4px solid rgba(255, 255, 255, 0.9)",
     borderRadius: "5px",
+    boxShadow: "inset 0px 0px 7.07336px rgba(34, 202, 255, 0.5)",
+    filter:
+      "drop-shadow(0px 0px 18.2712px rgba(34, 202, 255, 0.7)), drop-shadow(0px 0px 70.7336px rgba(34, 202, 255, 0.5))",
   },
   button2: {
     marginTop: 40,
     width: "18em",
     height: "5em",
     border: "4px solid #FFFFFF",
-    variant: "outline",
     boxShadow: "inset 0px 0px 7.17083px rgba(1, 221, 115, 0.5)",
     filter:
       "drop-shadow(0px 0px 18.523px rgba(1, 221, 115, 0.7))drop-shadow(0px 0px 71.7083px rgba(1, 221, 115, 0.5))",
@@ -77,8 +75,10 @@ const useStyles = makeStyles((theme) => ({
   btn_text: {
     fontFamily: theme.typography.fontFamily,
     fontSize: "22px",
-    color: "rgba(39, 190, 117, 0.5)",
+    color: "#FFFFFF",
     letterSpacing: "0.15em",
+    textShadow:
+      "0px 0px 18.2712px rgba(34, 202, 255, 0.7), 0px 0px 70.7336px rgba(34, 202, 255, 0.5)",
   },
   btn_text2: {
     fontFamily: theme.typography.fontFamily,
